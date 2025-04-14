@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Not Defteri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="app-title">
+                <h1>Not Defteri</h1>
+            </div>
+
+        </div>
+        
+        <div class="main-content">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Notlarda ara...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="notes-container" id="notes-container">
+                <!-- Notlar JavaScript ile buraya eklenecek -->
+            </div>
+            
+            <div class="add-note-container">
+                <button id="add-note-btn" class="add-note-btn">
+                    <i class="fas fa-plus"></i> Yeni Not
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Not ekleme/düzenleme modal -->
+    <div class="modal" id="note-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Yeni Not</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="note-title" placeholder="Başlık..." required>
+                <textarea id="note-content" placeholder="Not içeriği..." required></textarea>
+
+                <div class="color-picker">
+                    <label>Not Rengi:</label>
+                    <div class="colors">
+                        <div class="color-option" data-color="#ffcccc" style="background-color: #ffcccc;"></div>
+                        <div class="color-option" data-color="#ccffcc" style="background-color: #ccffcc;"></div>
+                        <div class="color-option" data-color="#ccccff" style="background-color: #ccccff;"></div>
+                        <div class="color-option" data-color="#ffffcc" style="background-color: #ffffcc;"></div>
+                        <div class="color-option" data-color="#ffccff" style="background-color: #ffccff;"></div>
+                        <div class="color-option" data-color="#ccffff" style="background-color: #ccffff;"></div>
+                    </div>
+                </div>
+                <button id="save-note-btn">Kaydet</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

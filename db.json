@@ -1,0 +1,48 @@
+{
+  "notes": [
+    {
+      "id": 2,
+      "title": "Proje Toplantısı",
+      "content": "Pazartesi saat 10:00'da nesnelerin interneti projesi için ekip toplantısı var. Sunum hazırlamayı unutma!",
+      "category": "work",
+      "color": "#ccffcc",
+      "createdAt": "12.5.2023",
+      "updatedAt": "14.5.2023"
+    },
+    {
+      "id": 3,
+      "title": "Yeni Uygulama Fikri",
+      "content": "Akıllı ev sistemleri için mobil uygulama geliştirme fikri. Sensörlerden gelen verileri görselleştiren bir dashboard tasarlanabilir.",
+      "category": "personal",
+      "color": "#cce5ff",
+      "createdAt": "10.5.2023",
+      "updatedAt": "10.5.2023"
+    },
+    {
+      "id": 4,
+      "title": "Doğum Günü Hatırlatması",
+      "content": "Ayşe'nin doğum günü 25 Mayıs'ta. Hediye almayı unutma!",
+      "category": "personal",
+      "color": "#ffecb3",
+      "createdAt": "8.5.2023",
+      "updatedAt": "8.5.2023"
+    },
+    {
+      "id": 5,
+      "title": "Kitap Önerileri",
+      "content": "Okumak istediğim kitaplar:\n- Nesnelerin İnterneti Temelleri\n- Yapay Zeka ve Makine Öğrenmesi\n- Veri Bilimi İçin Python",
+      "category": "personal",
+      "color": "#e6ccff",
+      "createdAt": "5.5.2023",
+      "updatedAt": "7.5.2023"
+    },
+    {
+      "id": 1744667859225,
+      "title": "önemli",
+      "content": "önemi bir mesaj",
+      "color": "#ffccff",
+      "createdAt": "15.4.2025",
+      "updatedAt": "15.4.2025"
+    }
+  ]
+}
