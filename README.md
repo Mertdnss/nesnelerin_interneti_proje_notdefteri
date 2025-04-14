@@ -1,13 +1,11 @@
 # Modern Not Defteri Uygulaması
 
-Bu proje, JSON Server kullanarak geliştirilmiş modern bir not defteri uygulamasıdır. Kullanıcılar notlar oluşturabilir, düzenleyebilir, silebilir ve kategorilere göre filtreleyebilir.
+Bu proje, JSON Server kullanarak geliştirilmiş modern bir not defteri uygulamasıdır. Kullanıcılar notlar oluşturabilir, düzenleyebilir, silebilir.
 
 ## Özellikler
 
 - Not ekleme, düzenleme ve silme
-- Kategorilere göre notları filtreleme
 - Notlarda arama yapma
-- Yeni kategori ekleme
 - Notlar için renk seçimi
 - JSON Server ile veri yönetimi
 
